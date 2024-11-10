@@ -1,0 +1,8 @@
+[user]
+	name = Isak Simonsson
+	email = isak.simonsson@gmail.com
+	username = Isak-s
+[init]
+	defaultBranch = main
+[pull]
+    rebase = false
