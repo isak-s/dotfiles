@@ -26,7 +26,8 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+
 # >>> coursier install directory >>>
-export PATH="$PATH:/home/isak/.local/share/coursier/bin"
+export PATH="$PATH:/home/isaks/.local/share/coursier/bin"
 # <<< coursier install directory <<<
 export PS1="\[\033[36m\]$\[\033[00m\] \[\033[95m\]\u @ $WSL_DISTRO_NAME\[\033[00m\]:\[\033[35m\]\w\[\033[00m\]$ "
