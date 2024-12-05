@@ -117,5 +117,5 @@ if ! shopt -oq posix; then
 fi
 
 
-
+export PATH="$PATH:/home/isaks/.local/share/coursier/bin"
 export PS1="\[\033[36m\]$\[\033[00m\] \[\033[95m\]\u @ [\033[00m\]:\[\033[35m\]\w\[\033[00m\]$ "
