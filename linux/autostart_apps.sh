@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Start VS Code and move to Desktop 0
+sleep 2
 code &
 sleep 2
 wmctrl -x -r "Visual Studio Code" -t 0
