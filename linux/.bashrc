@@ -126,5 +126,7 @@ if [[ "$(tty)" == "/dev/pts/1" ]]; then
     htop
 fi
 
+xmodmap -e "clear Lock"
+xmodmap -e "keycode 66 = braceleft"
 
 cd "/home/isaks/W/"
