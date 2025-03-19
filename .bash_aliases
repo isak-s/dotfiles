@@ -22,3 +22,7 @@ alias left='ls -t -1'
 alias count='find . -type f | wc -l'
 alias startgit='cd `git rev-parse --show-toplevel` && git checkout main && git pull'
 alias k='kubectl'
+
+# my own terminal calculator
+alias tfunc='java -jar ~/bin/FunctionApp.jar'
+alias tcalc='java -jar ~/bin/CalculatorApp.jar'
