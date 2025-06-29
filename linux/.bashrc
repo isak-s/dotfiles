@@ -118,7 +118,8 @@ fi
 
 
 export PATH="$PATH:/home/isaks/.local/share/coursier/bin"
-export PS1="\[\033[36m\]$\[\033[00m\] \[\033[95m\]\u @ [\033[00m\]:\[\033[35m\]\w\[\033[36m\]$ "
+export PS1="\[\033[36m\]\$\[\033[00m\] \[\033[95m\]\u @ \[\033[00m\]:\[\033[35m\]\w\[\033[36m\]\$\[\033[00m\] "
+
 
 if [[ "$(tty)" == "/dev/pts/1" ]]; then
     neofetch
