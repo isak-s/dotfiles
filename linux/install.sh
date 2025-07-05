@@ -8,6 +8,8 @@ sudo apt update
 
 sudo apt install wmctrl
 
+sudo apt install fonts-firacode
+
 # Latex stuff
 
 # sudo apt install latexmk
