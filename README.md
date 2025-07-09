@@ -8,6 +8,9 @@ The CAPS LOCK key gets rebound in bashrc to an opening curly brace, Since caps l
 
 Also some nice aliases and some of my own programs.
 
-Run the command below to configure your machine. (Symlinks dotfiles in this repo with dotfiles on the machine)
+
+### Installation
+(Symlinks dotfiles in this repo with dotfiles on the machine)
+Run the following from the repo root:
 ```sh
 ./install.sh
