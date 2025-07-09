@@ -120,6 +120,7 @@ fi
 export PATH="$PATH:/home/isaks/.local/share/coursier/bin"
 export PS1="\[\033[36m\]\$\[\033[00m\] \[\033[95m\]\u @ \[\033[00m\]:\[\033[35m\]\w\[\033[36m\]\$\[\033[00m\] "
 
+export PATH="$PATH:$HOME/bin"
 
 if [[ "$(tty)" == "/dev/pts/1" ]]; then
     neofetch
@@ -127,7 +128,9 @@ if [[ "$(tty)" == "/dev/pts/1" ]]; then
     htop
 fi
 
+# Rebinds the caps lock key to be an opening curly brace.
+# Autostart apps should autostart a terminal so that this is ran on startup
 xmodmap -e "clear Lock"
 xmodmap -e "keycode 66 = braceleft"
 
-cd "/home/isaks/W/"
+cd "$HOME/W/" || printf "Configure workspace directory in bashrc"

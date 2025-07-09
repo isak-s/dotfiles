@@ -15,5 +15,3 @@ wmctrl -x -r "Mozilla Firefox" -t 2
 qterminal &
 sleep 2
 wmctrl -x -r "Shell No. 1" -t 1
-
-

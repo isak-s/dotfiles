@@ -1,0 +1,6 @@
+wmctrl
+neofetch
+fonts-firacode
+latexmk
+default-jdk
+texlive-full
