@@ -128,9 +128,4 @@ if [[ "$(tty)" == "/dev/pts/1" ]]; then
     htop
 fi
 
-# Rebinds the caps lock key to be an opening curly brace.
-# Autostart apps should autostart a terminal so that this is ran on startup
-xmodmap -e "clear Lock"
-xmodmap -e "keycode 66 = braceleft"
-
 cd "$HOME/W/" || printf "Configure workspace directory in bashrc"

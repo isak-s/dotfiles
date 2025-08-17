@@ -28,5 +28,9 @@ ln -sf "$path_to_repo_root/linux/.bashrc" "$HOME/.bashrc"
 ln -sf "$path_to_repo_root/.gitconfig" "$HOME/.gitconfig"
 ln -sf "$path_to_repo_root/FunctionApp.jar" "$HOME/bin/FunctionApp.jar"
 ln -sf "$path_to_repo_root/CalculatorApp.jar" "$HOME/bin/CalculatorApp.jar"
+ln -sf "$path_to_repo_root"/linux/.vimrc "$HOME"/.vimrc
+ln -sf "$path_to_repo_root"/linux/.xprofile "$HOME"/.xprofile
+
+sudo systemctl restart keyboard-setup.service
 
 echo "Dotfiles have been symlinked. Restart shell!"
