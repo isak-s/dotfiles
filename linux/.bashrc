@@ -128,4 +128,6 @@ if [[ "$(tty)" == "/dev/pts/1" ]]; then
     htop
 fi
 
+[[ -s /home/isaks/.autojump/etc/profile.d/autojump.sh ]] && source /home/isaks/.autojump/etc/profile.d/autojump.sh
+
 cd "$HOME/W/" || printf "Configure workspace directory in bashrc"
