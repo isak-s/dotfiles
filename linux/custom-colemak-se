@@ -27,10 +27,10 @@ xkb_symbols "colemak" {
 	key <AC03> { [ s, S, equal, equal ] };
 	key <AC04> { [ t, T, braceleft, braceright] };
 	key <AC05> { [ d, D, parenleft, parenleft ] };
-	key <AC06> { [ h, H, parenright, parenright] };
-	key <AC07> { [ n, N, ntilde ] };
-	key <AC08> { [ e, E, colon ] };
-	key <AC09> { [ i, I, semicolon ] };
+	key <AC06> { [ h, H, Left, parenright] };
+	key <AC07> { [ n, N, Down, ntilde ] };
+	key <AC08> { [ e, E, Up, colon ] };
+	key <AC09> { [ i, I, Right, semicolon ] };
 	key <AC10> { [ o, O, dollar ] };
 
 	// bottom row
@@ -39,6 +39,11 @@ xkb_symbols "colemak" {
 	key <AB06> { [ k, K, backslash ] };
 
     // Caps Lock → Backspace
+	//clear Lock;
     key <CAPS> { [ BackSpace ] };
+	key <BKSP> { [ Caps_Lock ] };
+
+	modifier_map Lock { <BKSP> };
+
 
 };
