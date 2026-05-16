@@ -48,3 +48,11 @@ Then add the variant to /usr/share/X11/xkb/rules/evdev.xml under variants as
         <variant>
 
 Then go to keybinds and set caps lock to be swapped with escape
+
+to get caps lock as escape to work in vscodevim, add in keybindings.json.
+Opened by ctrl shift p open keyboard shortcuts
+{
+    "key": "capslock",
+    "command": "extension.vim_escape",
+    "when": "editorTextFocus && vim.active && vim.mode != 'Normal'"
+}
